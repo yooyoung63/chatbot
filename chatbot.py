@@ -6,7 +6,7 @@ st.title("💬 Chatbot")
 st.caption("🚀 A streamlit chatbot powered by Google AI")
 
 # Google Generative AI（Gemini API）のAPIキー設定
-genai.configure(api_key=AIzaSyCCg4i0qbQAyBuFxN5wxVxVgTuNrvlMQmg)
+genai.configure(api_key="AIzaSyCCg4i0qbQAyBuFxN5wxVxVgTuNrvlMQmg")
 
 # Geminiモデルの設定
 model = genai.GenerativeModel('gemini-pro')
